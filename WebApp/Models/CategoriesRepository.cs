@@ -5,9 +5,10 @@
 
         private static List<Category> _categories = new List<Category>()
         {
-            new Category { CategoryId=1, Name="Beverage", Description="Beverage"},
-            new Category { CategoryId=2, Name="Bakery", Description="Bakery"},
-            new Category { CategoryId=3, Name= "Meat", Description="Meat"},
+            new Category { CategoryId=1, Name="Beverage", Description="All type of beverages"},
+            new Category { CategoryId=2, Name="Bakery", Description="All type of bakery"},
+            new Category { CategoryId=3, Name= "Meat", Description="All type of meat"},
+            new Category { CategoryId=4, Name= "Vegetable", Description="All type of vegetables"}
         };
 
         public static void AddCategory(Category category)

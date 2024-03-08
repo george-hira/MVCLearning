@@ -48,5 +48,10 @@ namespace WebApp.Controllers
             return View(category);
         }
 
+        public IActionResult Delete (int categoryId)
+        {
+            CategoriesRepository.DelegateCategory(categoryId);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
